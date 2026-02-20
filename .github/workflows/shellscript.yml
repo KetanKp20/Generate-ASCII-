@@ -10,5 +10,8 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@v4
 
+    - name: make script executable
+      run: chmod 777 shellscript.sh
+
     - name: run the shell script
       run: ./shellscipt.sh
