@@ -1,0 +1,14 @@
+name: Generate ASSCI Artwork
+
+on:
+  push
+
+jobs:
+   ascii_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v4
+
+    - name: run the shell script
+      run: ./shellscipt.sh
