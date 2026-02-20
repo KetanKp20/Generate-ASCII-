@@ -14,4 +14,4 @@ jobs:
       run: chmod 777 shellscript.sh
 
     - name: run the shell script
-      run: ./shellscipt.sh
+      run: ./shellscript.sh
